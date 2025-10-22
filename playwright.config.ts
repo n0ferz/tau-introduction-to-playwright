@@ -88,7 +88,7 @@ export default defineConfig({
     },
 
     {
-      name: 'all-browsers-and-tests',
+      name: 'all-browsers-and-tests-chromium',
       use: { 
         baseURL: 'https://playwright.dev/',
          ...devices['Desktop Chrome']
@@ -96,7 +96,7 @@ export default defineConfig({
     },
 
     {
-      name: 'all-browsers-and-tests',
+      name: 'all-browsers-and-tests-webkit',
       use: { 
         baseURL: 'https://playwright.dev/',
          ...devices['Desktop Safari']
@@ -104,7 +104,7 @@ export default defineConfig({
     },
 
     {
-      name: 'all-browsers-and-tests',
+      name: 'all-browsers-and-tests-firefox',
       use: { 
         baseURL: 'https://playwright.dev/',
          ...devices['Desktop Firefox']
